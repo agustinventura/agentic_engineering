@@ -1,0 +1,11 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "reviewer"
+  status: "<approved_or_rejected>"
+
+detected_problems:
+  - "<PROBLEM_1: Leave empty or remove if status is approved>"
+  - "<PROBLEM_2: Be specific about which file/line failed the criteria>"
+
+comments: |
+  [Provide a summary of the review, test suite execution results, and any stylistic or architectural observations.]

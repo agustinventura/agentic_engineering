@@ -1,0 +1,12 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "leader"
+  status: "pending"
+
+acceptance_criteria:
+  - "<CRITERION_1: e.g., 'All new endpoints return 200 OK for valid payloads'>"
+  - "<CRITERION_2: e.g., 'Test coverage for UserRepository is at least 90%'>"
+
+steps: |
+  1. [Step 1 of the implementation]
+  2. [Step 2 of the implementation]

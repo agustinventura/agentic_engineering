@@ -1,0 +1,11 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "documenter"
+  status: "completed"
+
+updated_files:
+  - "<FILE_PATH_1: e.g., README.md>"
+  - "<FILE_PATH_2: e.g., docs/architecture.md>"
+
+summary: |
+  [Provide a concise summary of the documentation changes made. Mention if any new diagrams were created or if public APIs were documented based on the implementation.]

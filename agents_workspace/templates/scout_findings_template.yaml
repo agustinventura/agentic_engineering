@@ -1,0 +1,15 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "scout"
+  status: "completed"
+
+analyzed_files:
+  - "<FILE_PATH_1>"
+  - "<FILE_PATH_2>"
+
+findings:
+  - "<ATOMIC_FACT_1: e.g., 'Jackson dependency is missing in pom.xml'>"
+  - "<ATOMIC_FACT_2: e.g., 'UserRepository does not exist yet'>"
+
+technical_assessment: |
+  [Provide a detailed technical assessment here. Include exact code snippets, architectural observations, and any potential blockers or edge cases the Leader needs to consider when drafting the implementation plan.]

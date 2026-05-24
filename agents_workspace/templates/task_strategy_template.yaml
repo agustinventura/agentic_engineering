@@ -1,0 +1,21 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "leader"
+  task_type: "<TASK_TYPE>" # e.g., feature_development, code_exploration, documentation_update, bug_fix
+  status: "pending"
+
+objective: |
+  [Provide a concise description of the overall goal for this task, ensuring all subsequent agents understand the broader context.]
+
+workflow:
+  # Define the dynamic execution sequence. Add or remove steps based on the task_type.
+  # Valid agents: scout, leader, implementer, reviewer, documenter
+  - step: 1
+    agent: "<AGENT_NAME>"
+    action: "<SPECIFIC_INSTRUCTION_FOR_THIS_STEP>"
+    expected_output: "<OUTPUT_FILENAME.yaml>" # e.g., scout_findings.yaml, implementation_plan.yaml
+
+  - step: 2
+    agent: "<AGENT_NAME>"
+    action: "<SPECIFIC_INSTRUCTION_FOR_THIS_STEP>"
+    expected_output: "<OUTPUT_FILENAME.yaml>"

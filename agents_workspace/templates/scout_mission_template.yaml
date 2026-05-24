@@ -1,0 +1,14 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "leader"
+  status: "pending"
+
+target: "<SPECIFIC_GOAL_OF_THE_SEARCH>"
+
+relevant_files_to_check:
+  - "<FILE_PATH_1>"
+  - "<FILE_PATH_2>"
+
+instructions: |
+  1. [Step 1 of the investigation]
+  2. [Step 2 of the investigation]

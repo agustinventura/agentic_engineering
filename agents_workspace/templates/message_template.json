@@ -1,0 +1,8 @@
+{
+  "timestamp": "<ISO-8601_DATETIME>",
+  "task_id": "<TASK_ID>",
+  "origin": "<AGENT_NAME>",
+  "destination": "<AGENT_NAME_OR_SYSTEM>",
+  "action": "<SPECIFIC_ACTION_OR_EVENT>",
+  "target_file": "<FILE_PATH_IF_APPLICABLE>"
+}

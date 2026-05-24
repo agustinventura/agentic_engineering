@@ -1,0 +1,11 @@
+metadata:
+  task_id: "<TASK_ID>"
+  author: "implementer"
+  status: "<completed_or_blocked>"
+
+modified_files:
+  - "<FILE_PATH_1>"
+  - "<FILE_PATH_2>"
+
+notes: |
+  [Provide execution notes, summary of test outputs, or explain the technical reasons if the status is marked as 'blocked'.]
